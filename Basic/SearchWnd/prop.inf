@@ -32,6 +32,10 @@
     "outputPath": "",
     "scriptLink": ""
   },
+  "script": {
+    "before": [],
+    "after": []
+  },
   "subversion": {
     "useMode": false,
     "url": "svn://greenkiwii.iptime.org/RND/Study/samples/SearchWnd",
@@ -44,9 +48,5 @@
       "idx": 0,
       "list": []
     }
-  },
-  "script": {
-    "before": [],
-    "after": []
   }
 }

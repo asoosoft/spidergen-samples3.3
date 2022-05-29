@@ -35,11 +35,6 @@ function MainView*onOpenAsBtnClick(comp, info, e)
 	var wnd = new AWindow('sample01');
 	
 	wnd.setData({ id: "guestId", pw: "guestPw" });
-	wnd.openAsDialog('Views/WindowView1.lay', null, 400, 210);	//ADialog 와 같은 효과를 준다.
-	//or try this
-	//wnd.openAsMenu('Views/WindowView1.lay', null, 400, 210);	//메뉴처럼 띄운다. 배경을 클릭하면 닫힘
-	//wnd.openCenter('Views/WindowView1.lay', null, 400, 210);
-	
 	//윈도우가 닫히면 호출될 콜백함수 셋팅
 	wnd.setResultCallback(function(result, data)
   	{
@@ -49,6 +44,12 @@ function MainView*onOpenAsBtnClick(comp, info, e)
 			AToast.show('User ID : ' + data.uid + '\n User PW : ' + data.upw);
 		}
 	});
+	
+	wnd.openAsDialog('Views/WindowView1.lay', null, 400, 210);	//ADialog 와 같은 효과를 준다.
+	//or try this
+	//wnd.openAsMenu('Views/WindowView1.lay', null, 400, 210);	//메뉴처럼 띄운다. 배경을 클릭하면 닫힘
+	//wnd.openCenter('Views/WindowView1.lay', null, 400, 210);
+
 };
 
 function MainView*onFullWindowBtnClick(comp, info, e)
@@ -92,7 +93,14 @@ function MainView*onOptionBtnClick(comp, info, e)
 	wnd.setResultListener(this);
 	
 	// url, parnt, top, left, width, height
-	wnd.open('Views/WindowView1.lay', null, 100, 100, 400, 210);
+	// 컨테이너의 open 함수는 비동기이므로 open 호출 후 로드가 완료된 view 에 접근하려면 
+	// then 이나 async, await 를 사용해야 한다.
+	wnd.open('Views/WindowView1.lay', null, 100, 100, 400, 210).then(()=>
+	{
+		var view = wnd.getView();
+		view.ButtonOk.setText('Ok');
+		view.ButtonCancel.setText('Cancel');
+	});
 
 };
 

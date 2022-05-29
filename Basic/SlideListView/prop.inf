@@ -31,6 +31,10 @@
     "outputPath": "",
     "scriptLink": ""
   },
+  "script": {
+    "before": [],
+    "after": []
+  },
   "subversion": {
     "useMode": false,
     "url": "",
@@ -43,9 +47,5 @@
       "idx": 0,
       "list": []
     }
-  },
-  "script": {
-    "before": [],
-    "after": []
   }
 }

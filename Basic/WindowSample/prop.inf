@@ -31,13 +31,20 @@
     "outputPath": "",
     "scriptLink": ""
   },
+  "script": {
+    "before": [],
+    "after": []
+  },
   "subversion": {
     "url": "",
     "username": "",
     "password": ""
   },
-  "script": {
-    "before": [],
-    "after": []
+  "deployment": {
+    "upload": {
+      "idx": null,
+      "list": []
+    },
+    "checkVersion": false
   }
 }

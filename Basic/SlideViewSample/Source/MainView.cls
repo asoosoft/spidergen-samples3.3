@@ -51,10 +51,23 @@ function MainView*onInitDone()
 	//this.testSlideView.setSpeed(300);
 	
 	//------------------------------------------------------
-	//특정 위치의 아이템의 뷰에 접근하는 방법
+	// 특정 위치의 뷰에 접근하는 방법
+	// 이 경우 addItem 이 비동기 이므로 
+	// 이전에 호출된 비동기 작업이 완료됐는지를 체크하는 afc.asyncReady 를 사용하거나
+	afc.asyncReady(()=>
+	{
+		var item = this.testSlideView.getItem(0);
+		item.view.cntLabel.setText('Hello~');
+	});
 	
-	//var item = this.testSlideView.getItem(0);
-	//item.view.cntLabel.setText('Hello~');
+	//위에서 this.testSlideView.addItem 호출 시 then 을 사용해야 한다. 
+	/*
+	this.testSlideView.addItem('Source/views/Subview1.lay', [1]).then(items=>
+	{
+		items[0].view.cntLabel.setText('Hello~22');
+	});
+	*/
+
 };
 
 function MainView*onActiveDone(isFirst)

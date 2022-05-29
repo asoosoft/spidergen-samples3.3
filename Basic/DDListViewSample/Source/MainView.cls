@@ -24,10 +24,10 @@ function MainView*init(context, evtListener)
 	});
 	*/
 	
-	//왼쪽 리스트뷰 아이템만 오른쪽으로 옮길 수 있게 함.
-	this.listView.enableGlobalDrag();
-	//this.listView2.enableGlobalDrag();
 	
+	//enableGlobalDrag 호출 시, 다른 리스트뷰로 아이템 이동 가능
+	//왼쪽 리스트뷰 아이템만 오른쪽으로 옮길 수 있게 함.
+	this.listView.enableGlobalDrag();	
 
 };
 

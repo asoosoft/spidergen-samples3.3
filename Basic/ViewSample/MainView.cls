@@ -18,9 +18,17 @@ function MainView*init(context, evtListener)
 	super.init(context, evtListener);
 
 	//TODO:edit here
-	
+};
+
+async function MainView*onInitDone()
+{
+	super.onInitDone();
+
+
 	// 새로 만들 뷰의 url을 이용하여 뷰 컴포넌트를 만든다.
-	var innerView = AView.createView(null, 'Source/InnerView.lay');
+	// createView 는 비동기 함수이므로 로드된 view 에 접근하려면 
+	// then 이나 async, await 를 사용해야 한다.
+	var innerView = await AView.createView(null, 'Source/InnerView.lay');
 	
 	innerView.setCompRect(10, 10, 300, 300);
 	
@@ -28,17 +36,13 @@ function MainView*init(context, evtListener)
 	this.blankView1.addComponent(innerView);
 	
 	
-	//뷰 내부에 외뷰 모듈뷰를 로드한다.
-	this.blankView2.loadView('Source/InnerView.lay');
-	
-};
-
-function MainView*onInitDone()
-{
-	super.onInitDone();
-
-	//TODO:edit here
-
+	// 뷰 내부에 외뷰 모듈뷰를 로드한다.
+	// loadView 는 비동기 함수이므로 로드된 view 에 접근하려면 
+	// then 이나 async, await 를 사용해야 한다.
+	this.blankView2.loadView('Source/InnerView.lay').then(view=>
+	{
+		view.TitleLabel.setText('Hello World!');
+	});
 };
 
 function MainView*onActiveDone(isFirst)

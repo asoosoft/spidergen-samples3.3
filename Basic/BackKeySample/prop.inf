@@ -31,6 +31,10 @@
     "stlImportant": false,
     "scriptLink": ""
   },
+  "script": {
+    "before": [],
+    "after": []
+  },
   "subversion": {
     "useMode": false,
     "url": "",
@@ -43,9 +47,5 @@
       "idx": null,
       "list": []
     }
-  },
-  "script": {
-    "before": [],
-    "after": []
   }
 }

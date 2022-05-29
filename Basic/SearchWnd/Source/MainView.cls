@@ -52,7 +52,6 @@ function MainView*onInputEditFocus(comp, info, e)
 		focusOnInit: false
 	});
 	
-	wnd.open('Source/ResultView.lay', this.getContainer(), pos.left, pos.top+40, width);
 	wnd.setResultCallback(function(result)
 	{
 		thisObj.searchWnd = null;
@@ -67,7 +66,12 @@ function MainView*onInputEditFocus(comp, info, e)
 		}
 	});
 	
-	this.searchWnd = wnd;
+	//컨테이너의 open 은 비동기 함수이므로 로드가 완료된 후의 작업은 then 이나 async, await 를 사용한다.
+	wnd.open('Source/ResultView.lay', this.getContainer(), pos.left, pos.top+40, width).then(d=>
+	{
+		this.searchWnd = wnd;
+	});
+	
 };
 
 function MainView*onInputEditChange(comp, info, e)

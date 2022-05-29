@@ -42,6 +42,7 @@ function ListItemView*setData(data)
 function ListItemView*onDeleteButtonClick(comp, info)
 {
 	//owner 는 자신을 로드한 컴포넌트이다. 여기서는 AListView
-	this.owner.removeItem(this._item);
+	//this.owner.removeItem(this._item);
+	this.owner.removeItem(this.getItem());
 
 };

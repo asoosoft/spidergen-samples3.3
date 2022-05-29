@@ -7,7 +7,7 @@
 	}
 	.ResponsiveSampleView-resp > :nth-child(3) > :nth-child(1)
 	{
-		top:10px !important;
 		bottom:unset !important;
+		top:10px !important;
 	}
 }

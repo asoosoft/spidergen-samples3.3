@@ -40,14 +40,25 @@ function MainView*onInitDone()
 	//ListItemView.cls 에 setData 함수가 있으면 순서에 맞는 data 오브젝트를 파람라미터로 넘기며 호출해 준다.
 	
 	this.listView.addItem('Source/Items/ListItemView.lay', this.listData);
+	
+	//addItem 은 비동기 함수이므로 모두 로드된 후 아이템에 접근하려면 다음과 같이 하거나 async, await 를 사용한다.
+	//await 는 onAddButtonClick 함수 참조
+	this.listView.addItem('Source/Items/ListItemView.lay', this.listData).then(data=>
+	{
+		console.log(data);
+	});
+	
 };
 
 // 추가 버튼을 누르면 데이터를 이용해서 하나의 아이템을 추가한다.
-function MainView*onAddButtonClick(comp, info)
+// addItem 은 비동기 함수이므로 모두 로드된 후 아이템에 접근하려면 async, await 를 사용한다.
+async function MainView*onAddButtonClick(comp, info)
 {
 	var newData = [ {img : 'Assets/img/door.png', title : 'List Content Title 1'} ];
 	
-	this.listView.addItem('Source/Items/ListItemView.lay', newData);
+	var item = await this.listView.addItem('Source/Items/ListItemView.lay', newData);
+	
+	console.log(item[0].itemData);
 };
 
 //아이템을 선택했을 때 발생하는 이벤트

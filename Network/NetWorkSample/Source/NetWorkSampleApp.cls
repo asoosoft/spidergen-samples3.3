@@ -1,6 +1,3 @@
-import 'Framework/afc/component/AApplication.js'
-import 'Framework/afc/component/APage.js'
-
 
 /**
 Constructor

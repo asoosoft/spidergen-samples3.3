@@ -15,6 +15,7 @@ extends AView;
 
 function AnimaSampleView*onInitDone()
 {
+	super.onInitDone();
 
 	//manual site
 	

@@ -33,7 +33,16 @@ function MainView*onInitDone()
 	
 	
 	//기본적으로 첫번째 탭이 선택되도록
-	this.tabView.selectTabById('tab1');	//탭 아이디로 선택
+	//탭 아이디로 선택
+	//selectTab 은 비동기 함수이므로 함수 호출 후, 탭의 컨텐츠 로드가 완료된 후의 작업이 필요하면 
+	//then 이나 async, await 를 사용해야 한다.
+	this.tabView.selectTabById('tab1').then(data=>
+	{
+		var selView = this.tabView.getSelectedView();
+		console.log(selView.TitleLabel.getText());
+	});	
+	
+	//로드되어지는 각 뷰에서 처리할 경우 단순히 호출해도 됨.
 	//this.tabView.selectTabByIndex(0);	//인덱스로 선택
 	
 };

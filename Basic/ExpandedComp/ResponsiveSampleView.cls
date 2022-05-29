@@ -15,6 +15,7 @@ extends AView;
 
 function ResponsiveSampleView*onInitDone()
 {
+	super.onInitDone();
 
 	//TODO:edit here
 

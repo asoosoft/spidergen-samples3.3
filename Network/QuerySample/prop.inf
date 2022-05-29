@@ -30,6 +30,10 @@
     "stlImportant": true,
     "scriptLink": ""
   },
+  "script": {
+    "before": [],
+    "after": []
+  },
   "subversion": {
     "useMode": false,
     "url": "",
@@ -46,9 +50,5 @@
   "localizing": {
     "useMode": false,
     "value": ""
-  },
-  "script": {
-    "before": [],
-    "after": []
   }
 }

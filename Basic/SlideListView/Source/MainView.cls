@@ -22,6 +22,8 @@ function MainView*init(context, evtListener)
 	//리스트뷰가 동적으로 리사이즈 될 때 
 	//슬라이드뷰의 아이템이 리사이즈 되려면 옵션을 true 로 셋팅해야 한다.
 	
+	
+	//리스트뷰의 항목이 많을 경우 속도가 저하됨
 	this.listView.setOption({isUpdatePosition: true});
 	
 

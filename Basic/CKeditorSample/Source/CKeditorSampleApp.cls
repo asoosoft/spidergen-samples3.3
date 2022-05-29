@@ -1,6 +1,3 @@
-import 'Framework/afc/component/AApplication.js'
-import 'Framework/afc/component/APage.js'
-
 
 /**
 Constructor
@@ -21,7 +18,6 @@ function CKeditorSampleApp*onReady()
 	super.onReady();
 
 	this.setMainContainer(new APage('main'));
-	this.mainContainer.setOption({isAsync: true});
 	this.mainContainer.open('Source/MainView.lay');
 
 	//TODO:edit here

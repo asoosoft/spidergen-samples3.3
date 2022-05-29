@@ -9,17 +9,21 @@
     "tabletMinWidth": 500,
     "userScalable": false,
     "layBrowserInfo": [
-      640,
-      800
+      "640",
+      "800"
     ],
     "isPort": true,
-    "scaleValue": 100
+    "scaleValue": 100,
+    "responsiveTest": ""
   },
   "build": {
     "bridgeName": "none",
     "indexTitle": "",
     "frwLoadOption": "inTimeLoad",
-    "stlImportant": false
+    "stlImportant": false,
+    "subName": "",
+    "outputPath": "",
+    "scriptLink": ""
   },
   "script": {
     "before": [],

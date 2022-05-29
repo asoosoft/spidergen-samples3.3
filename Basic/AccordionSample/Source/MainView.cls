@@ -37,12 +37,6 @@ function MainView*init(context, evtListener)
         afterHide: null,
     });	
 	*/
-	
-	
-	//------------------------------------
-	// (1) 뷰 객체를 얻어 추가하는 방식
-	//
-	this.acc.insertItem('testView', this.testView);
 
 };
 
@@ -50,27 +44,29 @@ function MainView*onInitDone()
 {
 	super.onInitDone();
 	
-	var thisObj = this;
-
+	//------------------------------------
+	// (1) 뷰 객체를 얻어 추가하는 방식
+	//
+	this.acc.insertItem('testView', this.testView);
+	
+	
 	//(2) 모듈뷰를 동적으로 로드하여 추가하는 방식
 	for(var i=0; i<3; i++)
 		this.acc.insertItem('menu'+i, 'Source/items/Subitem1.lay', [1+i, 2+i, 3+i]);
 
 
-
 	//------------------------------------
 	// (3) 다음과 같이 응용할 수도 있다.
+	// AView.createView 는 비동기 함수이므로 then 이나 await 를 사용해야 한다.
 	
-	var view = AView.createView(null, 'Source/ViewItems.lay');
-	
-	//ViewItems.lay 내부에 있는 자식뷰를 아코디언뷰에 추가
-	view.eachChild(function(acomp, inx)
+	AView.createView(null, 'Source/ViewItems.lay').then(view=>
 	{
-		thisObj.acc.insertItem('menu'+inx, acomp);
+		//ViewItems.lay 내부에 있는 자식뷰를 아코디언뷰에 추가
+		view.eachChild((acomp, inx)=>
+		{
+			this.acc.insertItem('menu'+inx, acomp);
+		});
 	});
-	
-		
-	
 	
 };
 

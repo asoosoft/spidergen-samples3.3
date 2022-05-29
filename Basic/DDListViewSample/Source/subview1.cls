@@ -25,7 +25,9 @@ function subview1*onInitDone()
 {
 	super.onInitDone();
 
-	this.msgLbl.setText(this.item.itemData + ' : Hello~');
+	//this.msgLbl.setText(this._item.itemData + ' : Hello~');
+	//--> getItemData 함수 사용
+	this.msgLbl.setText(this.getItemData() + ' : Hello~');
 
 };
 
@@ -48,6 +50,8 @@ function subview1*onDelBtnClick(comp, info, e)
 	var mainView = this.owner.getRootView();
 	
 	//왼쪽 리스트 뷰로 이동
-	mainView.listView.itemInsertManage(this.item);
+	//mainView.listView.itemInsertManage(this._item);
+	//--> getItem 함수 사용
+	mainView.listView.itemInsertManage(this.getItem());
 
 };

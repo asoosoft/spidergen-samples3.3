@@ -15,6 +15,7 @@ extends AView;
 
 function RBMSampleView*onInitDone()
 {
+	super.onInitDone();
 
 	//TODO:edit here
 	this.rbm = new RadioBtnManager(this);

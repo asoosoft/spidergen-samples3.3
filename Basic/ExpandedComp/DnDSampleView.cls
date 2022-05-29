@@ -17,6 +17,8 @@ extends AView;
 
 function DnDSampleView*onInitDone()
 {
+	super.onInitDone();
+
 	this.ddm = new DnDManager('sample');
 	
 	this.setDragComp();

@@ -15,6 +15,7 @@ extends AView;
 
 function tabSubview2*onInitDone()
 {
+	super.onInitDone();
 
 	//TODO:edit here
 

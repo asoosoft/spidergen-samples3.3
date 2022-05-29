@@ -39,13 +39,9 @@ function MainView*onActiveDone(isFirst)
 
 function MainView*onDeviceInfoClick(comp, info, e)
 {
-	var thisObj = this;
-	
-	cordova.exec(
-	function(result)
+	cordova.exec(result=>
 	{
-		thisObj.infoBox.setText(JSON.stringify(result));
-		
+		this.infoBox.setText(JSON.stringify(result));
 	} 
 	, null, "Device" , "getDeviceInfo", []);
 };

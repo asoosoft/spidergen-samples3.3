@@ -15,6 +15,7 @@ extends AView;
 
 function subview1*onInitDone()
 {
+	super.onInitDone();
 
 	//TODO:edit here
 

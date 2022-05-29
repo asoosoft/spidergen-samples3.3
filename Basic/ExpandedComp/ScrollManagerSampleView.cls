@@ -15,6 +15,8 @@ extends AView;
 
 function ScrollManagerSampleView*onInitDone()
 {
+	super.onInitDone();
+	
 	var data = [];
 	for(var i=0; i<40; i++)
 		data.push(i);
