@@ -55,6 +55,9 @@ function MainView*onSimpleGridSelect(comp:AGrid, info, event)
 	{
 		//파라미터로 넘어온 cell 의 row, column 정보를 배열로 리턴한다. -> [row, col]
 		var pos = comp.indexOfCell(info);
+		
+		//추가된 로우가 없는 경우
+		if(pos[0]<0) return;
 
 		//셀의 텍스트를 가져온다.
 		AToast.show( comp.getCellText(pos[0], pos[1]) );
