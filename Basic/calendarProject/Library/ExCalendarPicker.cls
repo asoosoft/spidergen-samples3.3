@@ -1,7 +1,6 @@
-import 'Framework/mdfc/component/ACalendarPicker.js'
 
 /**
-작성자 : 아수소프트/배경수
+작성자 : 배경수
 작성일 : 2019.08.12
 내용 : 확장캘린더피커
 */
