@@ -20,6 +20,4 @@ function ListViewSampleApp*onReady()
 	this.setMainContainer(new APage('main'));
 	this.mainContainer.open('Source/Views/MainView.lay');
 
-	//TODO:edit here
-
 };
