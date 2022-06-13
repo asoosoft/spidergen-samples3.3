@@ -9,7 +9,7 @@ class QuerySampleApp()
 
 	//TODO:edit here
 	
-	this.serverUrl = 'http://localhost:3000/users/';
+	this.serverUrl = 'http://127.0.0.1:3000/users/';
 	
 	this.qm = null;
 
