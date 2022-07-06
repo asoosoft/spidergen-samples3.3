@@ -8,7 +8,7 @@
 
 //다음은 필요한 자바스크립트 파일을 동적으로 로딩하는 코드이다.
 //필요한 시점에 로드하면 된다. 여러번 호출해도 중복으로 로드되지 않는다. 
-afc.loadScript('Assets/ckeditor/ckeditor.js');
+afc.import('Assets/ckeditor/ckeditor.js');
 
 /**
 Constructor
