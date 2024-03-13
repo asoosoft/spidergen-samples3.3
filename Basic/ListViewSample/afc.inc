@@ -1,7 +1,7 @@
 {
     "library": {},
     "component": {
-        "ADialog.js": true
+        "ADialog.js": false
     },
     "event": {},
     "style": {}

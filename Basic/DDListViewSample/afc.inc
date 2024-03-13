@@ -1,7 +1,7 @@
 {
     "library": {},
     "component": {
-        "AListView.js": true
+        "AListView.js": false
     },
     "event": {},
     "style": {}

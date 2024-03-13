@@ -1,11 +1,10 @@
 {
     "library": {
         "BackupManager.js": true,
-        "DnDManager.js": true,
-        "ScrollManager.js": true
+        "DnDManager.js": true
     },
     "component": {
-        "ANavigator.js": true
+        "ANavigator.js": false
     },
     "event": {},
     "style": {}

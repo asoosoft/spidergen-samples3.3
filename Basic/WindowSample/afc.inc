@@ -1,7 +1,7 @@
 {
     "library": {},
     "component": {
-        "AToast.js": true
+        "AToast.js": false
     },
     "event": {},
     "style": {}

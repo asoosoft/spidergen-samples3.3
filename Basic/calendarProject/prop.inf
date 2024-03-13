@@ -13,10 +13,11 @@
     "scaleValue": 100,
     "responsiveTest": "",
     "layBrowserInfo": [
-      640,
-      800
+      "640",
+      "800"
     ],
-    "tabletMinWidth": 500
+    "tabletMinWidth": 500,
+    "flavor": "common"
   },
   "build": {
     "autoInc": true,
@@ -25,7 +26,11 @@
     "bridgeName": "none",
     "indexTitle": "",
     "frwLoadOption": "inTimeLoad",
-    "stlImportant": true
+    "stlImportant": true,
+    "concat": true,
+    "subName": "",
+    "outputPath": "",
+    "scriptLink": ""
   },
   "script": {
     "before": [],

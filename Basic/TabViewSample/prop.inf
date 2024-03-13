@@ -18,7 +18,8 @@
     ],
     "tabletMinWidth": 500,
     "responsiveTest": "",
-    "localizing": ""
+    "localizing": "",
+    "flavor": "common"
   },
   "build": {
     "autoInc": true,
@@ -30,7 +31,8 @@
     "indexTitle": "",
     "subName": "",
     "outputPath": "",
-    "scriptLink": ""
+    "scriptLink": "",
+    "concat": true
   },
   "script": {
     "before": [],

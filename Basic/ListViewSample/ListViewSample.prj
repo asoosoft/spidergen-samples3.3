@@ -100,8 +100,8 @@
         "name": "Source",
         "children": [
           {
-            "type": 2,
-            "name": "ListViewSampleApp.cls",
+            "type": 5,
+            "name": "ListViewSampleApp.js",
             "relType": 1,
             "path": ""
           },
@@ -110,8 +110,8 @@
             "name": "Views",
             "children": [
               {
-                "type": 2,
-                "name": "MainView.cls",
+                "type": 5,
+                "name": "MainView.js",
                 "action": null,
                 "relType": 1,
                 "path": ""
@@ -130,8 +130,8 @@
             "name": "Items",
             "children": [
               {
-                "type": 2,
-                "name": "ListItemView.cls",
+                "type": 5,
+                "name": "ListItemView.js",
                 "action": null,
                 "relType": 1,
                 "path": ""
@@ -146,8 +146,18 @@
             ]
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.0"
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

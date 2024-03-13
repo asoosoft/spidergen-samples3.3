@@ -1,10 +1,8 @@
 {
     "library": {
-        "ADataMask.js": true
+        "ADataMask.js": false
     },
-    "component": {
-        "ALayout.js": true
-    },
+    "component": {},
     "event": {},
     "style": {}
 }

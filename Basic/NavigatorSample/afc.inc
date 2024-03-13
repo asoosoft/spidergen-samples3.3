@@ -1,9 +1,9 @@
 {
     "library": {},
     "component": {
-        "ANavigator.js": true,
+        "ANavigator.js": false,
         "APanel.js": false,
-        "AToast.js": true
+        "AToast.js": false
     },
     "event": {},
     "style": {}

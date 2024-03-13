@@ -56,14 +56,14 @@
         "name": "Source",
         "children": [
           {
-            "type": 2,
-            "name": "SlideViewSampleApp.cls",
+            "type": 5,
+            "name": "SlideViewSampleApp.js",
             "relType": 1,
             "path": "Source\\"
           },
           {
-            "type": 2,
-            "name": "MainView.cls",
+            "type": 5,
+            "name": "MainView.js",
             "relType": 1,
             "path": "Source\\"
           },
@@ -78,8 +78,8 @@
             "name": "views",
             "children": [
               {
-                "type": 2,
-                "name": "Subview1.cls",
+                "type": 5,
+                "name": "Subview1.js",
                 "action": 5,
                 "relType": 1,
                 "path": "Source\\views\\"
@@ -92,8 +92,8 @@
                 "path": "Source\\views\\"
               },
               {
-                "type": 2,
-                "name": "Subview2.cls",
+                "type": 5,
+                "name": "Subview2.js",
                 "action": 5,
                 "relType": 1,
                 "path": "Source\\views\\"
@@ -106,8 +106,8 @@
                 "path": "Source\\views\\"
               },
               {
-                "type": 2,
-                "name": "Subview3.cls",
+                "type": 5,
+                "name": "Subview3.js",
                 "action": 5,
                 "relType": 1,
                 "path": "Source\\views\\"
@@ -122,8 +122,18 @@
             ]
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.0"
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

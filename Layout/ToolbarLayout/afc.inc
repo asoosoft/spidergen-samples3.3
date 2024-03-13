@@ -1,8 +1,8 @@
 {
     "library": {},
     "component": {
-        "ANavigator.js": true,
-        "APanel.js": true
+        "ANavigator.js": false,
+        "APanel.js": false
     },
     "event": {},
     "style": {}

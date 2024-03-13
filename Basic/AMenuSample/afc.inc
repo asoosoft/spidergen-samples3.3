@@ -1,7 +1,7 @@
 {
     "library": {},
     "component": {
-        "AMenu.js": true
+        "AMenu.js": false
     },
     "event": {},
     "style": {}
