@@ -29,8 +29,8 @@
         "action": 2,
         "children": [
           {
-            "type": 2,
-            "name": "ExCalendarPicker.cls",
+            "type": 5,
+            "name": "ExCalendarPicker.js",
             "action": null,
             "relType": 1,
             "path": "Library\\"
@@ -106,14 +106,14 @@
         "name": "Source",
         "children": [
           {
-            "type": 2,
-            "name": "calendarProjectApp.cls",
+            "type": 5,
+            "name": "calendarProjectApp.js",
             "relType": 1,
             "path": ""
           },
           {
-            "type": 2,
-            "name": "MainView.cls",
+            "type": 5,
+            "name": "MainView.js",
             "action": null,
             "relType": 1,
             "path": "Source\\",
@@ -128,8 +128,18 @@
             "comment": ""
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.1"
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

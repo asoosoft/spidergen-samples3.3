@@ -72,14 +72,14 @@
         "name": "Source",
         "children": [
           {
-            "type": 2,
-            "name": "NavigatorSampleApp.cls",
+            "type": 5,
+            "name": "NavigatorSampleApp.js",
             "relType": 1,
             "path": ""
           },
           {
-            "type": 2,
-            "name": "MainView.cls",
+            "type": 5,
+            "name": "MainView.js",
             "action": null,
             "relType": 1,
             "path": ""
@@ -96,8 +96,8 @@
             "name": "Views",
             "children": [
               {
-                "type": 2,
-                "name": "SubView1.cls",
+                "type": 5,
+                "name": "SubView1.js",
                 "action": null,
                 "relType": 1,
                 "path": ""
@@ -110,8 +110,8 @@
                 "path": ""
               },
               {
-                "type": 2,
-                "name": "SubView2.cls",
+                "type": 5,
+                "name": "SubView2.js",
                 "action": null,
                 "relType": 1,
                 "path": ""
@@ -124,8 +124,8 @@
                 "path": ""
               },
               {
-                "type": 2,
-                "name": "SubView3.cls",
+                "type": 5,
+                "name": "SubView3.js",
                 "action": null,
                 "relType": 1,
                 "path": ""
@@ -140,8 +140,18 @@
             ]
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.0"
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

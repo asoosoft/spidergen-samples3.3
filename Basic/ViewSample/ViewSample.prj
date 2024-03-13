@@ -44,14 +44,14 @@
         "name": "Source",
         "children": [
           {
-            "type": 2,
-            "name": "ViewSampleApp.cls",
+            "type": 5,
+            "name": "ViewSampleApp.js",
             "relType": 1,
             "path": ""
           },
           {
-            "type": 2,
-            "name": "MainView.cls",
+            "type": 5,
+            "name": "MainView.js",
             "relType": 1,
             "path": ""
           },
@@ -62,8 +62,8 @@
             "path": ""
           },
           {
-            "type": 2,
-            "name": "InnerView.cls",
+            "type": 5,
+            "name": "InnerView.js",
             "relType": 1,
             "path": ""
           },
@@ -74,8 +74,18 @@
             "path": ""
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.0"
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

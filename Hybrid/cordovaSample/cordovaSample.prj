@@ -130,14 +130,14 @@
         "name": "Source",
         "children": [
           {
-            "type": 2,
-            "name": "cordovaSampleApp.cls",
+            "type": 5,
+            "name": "cordovaSampleApp.js",
             "relType": 1,
             "path": "Source\\"
           },
           {
-            "type": 2,
-            "name": "MainView.cls",
+            "type": 5,
+            "name": "MainView.js",
             "relType": 1,
             "path": "Source\\"
           },
@@ -148,8 +148,18 @@
             "path": "Source\\"
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.0"
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

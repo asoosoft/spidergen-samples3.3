@@ -16,7 +16,8 @@
       "1137"
     ],
     "responsiveTest": "",
-    "tabletMinWidth": 500
+    "tabletMinWidth": 500,
+    "flavor": "common"
   },
   "build": {
     "autoInc": true,
@@ -28,7 +29,8 @@
     "subName": "",
     "outputPath": "",
     "stlImportant": true,
-    "scriptLink": ""
+    "scriptLink": "",
+    "concat": true
   },
   "script": {
     "before": [],

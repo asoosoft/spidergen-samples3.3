@@ -60,8 +60,8 @@
             "name": "items",
             "children": [
               {
-                "type": 2,
-                "name": "Subitem1.cls",
+                "type": 5,
+                "name": "Subitem1.js",
                 "action": 5,
                 "relType": 1,
                 "path": "Source\\items\\",
@@ -78,14 +78,14 @@
             ]
           },
           {
-            "type": 2,
-            "name": "AccordionSampleApp.cls",
+            "type": 5,
+            "name": "AccordionSampleApp.js",
             "relType": 1,
             "path": "Source\\"
           },
           {
-            "type": 2,
-            "name": "MainView.cls",
+            "type": 5,
+            "name": "MainView.js",
             "relType": 1,
             "path": "Source\\"
           },
@@ -96,8 +96,8 @@
             "path": "Source\\"
           },
           {
-            "type": 2,
-            "name": "ViewItems.cls",
+            "type": 5,
+            "name": "ViewItems.js",
             "action": 5,
             "relType": 1,
             "path": "Source\\",
@@ -112,8 +112,18 @@
             "comment": ""
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.0"
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

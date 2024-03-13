@@ -15,7 +15,8 @@
     "isPort": true,
     "scaleValue": 100,
     "responsiveTest": "",
-    "localizing": ""
+    "localizing": "",
+    "flavor": "common"
   },
   "build": {
     "bridgeName": "none",
@@ -24,7 +25,8 @@
     "stlImportant": true,
     "subName": "SpiderGenArea/TestDir/bin",
     "outputPath": "",
-    "scriptLink": ""
+    "scriptLink": "",
+    "concat": true
   },
   "script": {
     "before": [],

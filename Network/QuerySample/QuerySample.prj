@@ -65,18 +65,26 @@
             "path": ""
           },
           {
-            "type": 2,
-            "name": "WebQueryData.cls",
+            "type": 5,
+            "name": "WebQueryData.js",
             "action": null,
             "relType": 1,
             "path": "Library\\"
           },
           {
-            "type": 2,
-            "name": "WebQueryManager.cls",
+            "type": 5,
+            "name": "WebQueryManager.js",
             "action": null,
             "relType": 1,
             "path": "Library\\"
+          },
+          {
+            "type": 12,
+            "name": "MyFormat.fmt",
+            "action": null,
+            "relType": 1,
+            "path": "",
+            "comment": ""
           }
         ]
       },
@@ -129,14 +137,14 @@
         "name": "Source",
         "children": [
           {
-            "type": 2,
-            "name": "QuerySampleApp.cls",
+            "type": 5,
+            "name": "QuerySampleApp.js",
             "relType": 1,
             "path": ""
           },
           {
-            "type": 2,
-            "name": "MainView.cls",
+            "type": 5,
+            "name": "MainView.js",
             "action": null,
             "relType": 1,
             "path": "",
@@ -151,16 +159,8 @@
             "comment": ""
           },
           {
-            "type": 12,
-            "name": "MyFormat.fmt",
-            "action": null,
-            "relType": 1,
-            "path": "",
-            "comment": ""
-          },
-          {
-            "type": 2,
-            "name": "SampleView1.cls",
+            "type": 5,
+            "name": "SampleView1.js",
             "action": 5,
             "relType": 1,
             "path": "Source\\",
@@ -179,8 +179,8 @@
             "name": "subviews",
             "children": [
               {
-                "type": 2,
-                "name": "ItemView.cls",
+                "type": 5,
+                "name": "ItemView.js",
                 "action": 5,
                 "relType": 1,
                 "path": "Source\\",
@@ -197,8 +197,18 @@
             ]
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.0"
+  "version": "4.0.10",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

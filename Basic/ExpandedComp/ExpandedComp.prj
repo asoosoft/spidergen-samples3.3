@@ -88,14 +88,14 @@
         "name": "Source",
         "children": [
           {
-            "type": 2,
-            "name": "ExpandedCompApp.cls",
+            "type": 5,
+            "name": "ExpandedCompApp.js",
             "relType": 1,
             "path": ""
           },
           {
-            "type": 2,
-            "name": "MainView.cls",
+            "type": 5,
+            "name": "MainView.js",
             "action": null,
             "relType": 1,
             "path": "",
@@ -110,8 +110,8 @@
             "comment": ""
           },
           {
-            "type": 2,
-            "name": "DnDSampleView.cls",
+            "type": 5,
+            "name": "DnDSampleView.js",
             "action": null,
             "relType": 1,
             "path": "",
@@ -126,8 +126,8 @@
             "comment": ""
           },
           {
-            "type": 2,
-            "name": "AnimaSampleView.cls",
+            "type": 5,
+            "name": "AnimaSampleView.js",
             "action": null,
             "relType": 1,
             "path": "",
@@ -142,8 +142,8 @@
             "comment": ""
           },
           {
-            "type": 2,
-            "name": "ScrollManagerSampleView.cls",
+            "type": 5,
+            "name": "ScrollManagerSampleView.js",
             "action": null,
             "relType": 1,
             "path": "",
@@ -158,8 +158,8 @@
             "comment": ""
           },
           {
-            "type": 2,
-            "name": "BackupManagerSampleView.cls",
+            "type": 5,
+            "name": "BackupManagerSampleView.js",
             "action": null,
             "relType": 1,
             "path": "",
@@ -174,8 +174,8 @@
             "comment": ""
           },
           {
-            "type": 2,
-            "name": "ResponsiveSampleView.cls",
+            "type": 5,
+            "name": "ResponsiveSampleView.js",
             "action": null,
             "relType": 1,
             "path": "",
@@ -190,8 +190,8 @@
             "comment": ""
           },
           {
-            "type": 2,
-            "name": "RBMSampleView.cls",
+            "type": 5,
+            "name": "RBMSampleView.js",
             "action": null,
             "relType": 1,
             "path": "",
@@ -210,8 +210,8 @@
             "name": "subviews",
             "children": [
               {
-                "type": 2,
-                "name": "subview1.cls",
+                "type": 5,
+                "name": "subview1.js",
                 "action": null,
                 "relType": 1,
                 "path": "",
@@ -226,8 +226,8 @@
                 "comment": ""
               },
               {
-                "type": 2,
-                "name": "tabSubview1.cls",
+                "type": 5,
+                "name": "tabSubview1.js",
                 "action": null,
                 "relType": 1,
                 "path": "",
@@ -242,8 +242,8 @@
                 "comment": ""
               },
               {
-                "type": 2,
-                "name": "tabSubview2.cls",
+                "type": 5,
+                "name": "tabSubview2.js",
                 "relType": 1,
                 "path": ""
               },
@@ -254,8 +254,8 @@
                 "path": ""
               },
               {
-                "type": 2,
-                "name": "tabSubview3.cls",
+                "type": 5,
+                "name": "tabSubview3.js",
                 "relType": 1,
                 "path": ""
               },
@@ -268,8 +268,18 @@
             ]
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.2"
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

@@ -17,7 +17,8 @@
       "800"
     ],
     "tabletMinWidth": 500,
-    "localizing": ""
+    "localizing": "",
+    "flavor": "common"
   },
   "build": {
     "autoInc": true,
@@ -29,7 +30,8 @@
     "subName": "",
     "outputPath": "",
     "stlImportant": false,
-    "scriptLink": ""
+    "scriptLink": "",
+    "concat": true
   },
   "script": {
     "before": [],

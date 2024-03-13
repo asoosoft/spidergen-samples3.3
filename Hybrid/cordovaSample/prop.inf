@@ -14,7 +14,8 @@
     ],
     "isPort": true,
     "scaleValue": 100,
-    "responsiveTest": ""
+    "responsiveTest": "",
+    "flavor": "common"
   },
   "build": {
     "bridgeName": "cordova",
@@ -23,7 +24,8 @@
     "stlImportant": true,
     "subName": "",
     "outputPath": "",
-    "scriptLink": ""
+    "scriptLink": "",
+    "concat": true
   },
   "script": {
     "before": [],

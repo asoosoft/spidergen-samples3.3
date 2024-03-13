@@ -17,7 +17,8 @@
       "640",
       "800"
     ],
-    "tabletMinWidth": 500
+    "tabletMinWidth": 500,
+    "flavor": "common"
   },
   "build": {
     "autoInc": true,
@@ -29,7 +30,8 @@
     "stlImportant": false,
     "subName": "",
     "outputPath": "",
-    "scriptLink": ""
+    "scriptLink": "",
+    "concat": true
   },
   "script": {
     "before": [],

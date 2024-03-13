@@ -16,7 +16,8 @@
       "800"
     ],
     "tabletMinWidth": 500,
-    "responsiveTest": ""
+    "responsiveTest": "",
+    "flavor": "common"
   },
   "build": {
     "autoInc": true,
@@ -28,7 +29,8 @@
     "frwLoadOption": "inTimeLoad",
     "subName": "",
     "outputPath": "",
-    "scriptLink": ""
+    "scriptLink": "",
+    "concat": true
   },
   "script": {
     "before": [],

@@ -59,14 +59,14 @@
         "name": "Source",
         "children": [
           {
-            "type": 2,
-            "name": "BackKeySampleApp.cls",
+            "type": 5,
+            "name": "BackKeySampleApp.js",
             "relType": 1,
             "path": "Source\\"
           },
           {
-            "type": 2,
-            "name": "LoginView.cls",
+            "type": 5,
+            "name": "LoginView.js",
             "action": null,
             "relType": 1,
             "path": "Source\\",
@@ -81,8 +81,8 @@
             "comment": ""
           },
           {
-            "type": 2,
-            "name": "MainView.cls",
+            "type": 5,
+            "name": "MainView.js",
             "action": null,
             "relType": 1,
             "path": "Source\\",
@@ -101,8 +101,8 @@
             "name": "subview",
             "children": [
               {
-                "type": 2,
-                "name": "ItemView1.cls",
+                "type": 5,
+                "name": "ItemView1.js",
                 "action": null,
                 "relType": 1,
                 "path": "Source\\",
@@ -117,8 +117,8 @@
                 "comment": ""
               },
               {
-                "type": 2,
-                "name": "ItemView2.cls",
+                "type": 5,
+                "name": "ItemView2.js",
                 "action": null,
                 "relType": 1,
                 "path": "Source\\",
@@ -133,8 +133,8 @@
                 "comment": ""
               },
               {
-                "type": 2,
-                "name": "ItemView3.cls",
+                "type": 5,
+                "name": "ItemView3.js",
                 "action": null,
                 "relType": 1,
                 "path": "Source\\",
@@ -149,8 +149,8 @@
                 "comment": ""
               },
               {
-                "type": 2,
-                "name": "TestWindow.cls",
+                "type": 5,
+                "name": "TestWindow.js",
                 "action": 5,
                 "relType": 1,
                 "path": "Source\\",
@@ -167,8 +167,18 @@
             ]
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.0"
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

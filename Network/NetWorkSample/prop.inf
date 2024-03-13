@@ -13,13 +13,15 @@
       800
     ],
     "isPort": true,
-    "scaleValue": 100
+    "scaleValue": 100,
+    "flavor": "common"
   },
   "build": {
     "bridgeName": "none",
     "indexTitle": "",
     "frwLoadOption": "inTimeLoad",
-    "stlImportant": true
+    "stlImportant": true,
+    "concat": true
   },
   "script": {
     "before": [],

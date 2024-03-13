@@ -77,8 +77,8 @@
             "name": "items",
             "children": [
               {
-                "type": 2,
-                "name": "item1.cls",
+                "type": 5,
+                "name": "item1.js",
                 "action": null,
                 "relType": 1,
                 "path": "Source\\",
@@ -93,8 +93,8 @@
                 "comment": ""
               },
               {
-                "type": 2,
-                "name": "item2.cls",
+                "type": 5,
+                "name": "item2.js",
                 "action": null,
                 "relType": 1,
                 "path": "Source\\",
@@ -109,8 +109,8 @@
                 "comment": ""
               },
               {
-                "type": 2,
-                "name": "item3.cls",
+                "type": 5,
+                "name": "item3.js",
                 "action": null,
                 "relType": 1,
                 "path": "Source\\",
@@ -127,14 +127,14 @@
             ]
           },
           {
-            "type": 2,
-            "name": "SlideListViewApp.cls",
+            "type": 5,
+            "name": "SlideListViewApp.js",
             "relType": 1,
             "path": "Source\\"
           },
           {
-            "type": 2,
-            "name": "MainView.cls",
+            "type": 5,
+            "name": "MainView.js",
             "action": null,
             "relType": 1,
             "path": "Source\\",
@@ -149,8 +149,8 @@
             "comment": ""
           },
           {
-            "type": 2,
-            "name": "SlideSubview.cls",
+            "type": 5,
+            "name": "SlideSubview.js",
             "action": null,
             "relType": 1,
             "path": "Source\\",
@@ -165,8 +165,8 @@
             "comment": ""
           },
           {
-            "type": 2,
-            "name": "subview1.cls",
+            "type": 5,
+            "name": "subview1.js",
             "action": null,
             "relType": 1,
             "path": "Source\\",
@@ -181,8 +181,18 @@
             "comment": ""
           }
         ]
+      },
+      {
+        "type": 14,
+        "name": "index.html",
+        "relType": 1,
+        "path": ""
       }
     ]
   },
-  "version": "3.3.2"
+  "version": "4.0.3",
+  "flavor": {
+    "common": "common"
+  },
+  "defaultLanguage": "js"
 }

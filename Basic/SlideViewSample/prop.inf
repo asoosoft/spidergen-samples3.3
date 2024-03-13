@@ -14,7 +14,8 @@
     ],
     "isPort": true,
     "scaleValue": 100,
-    "responsiveTest": ""
+    "responsiveTest": "",
+    "flavor": "common"
   },
   "build": {
     "bridgeName": "none",
@@ -23,7 +24,8 @@
     "stlImportant": false,
     "subName": "",
     "outputPath": "",
-    "scriptLink": ""
+    "scriptLink": "",
+    "concat": true
   },
   "script": {
     "before": [],
