@@ -246,7 +246,7 @@
                         ><col
                         ><col
                     ></colgroup
-                    ><thead align="center" class="head-prop" style=""
+                    ><thead align="center" class="head-prop" style="display: table-header-group;"
                         ><tr height="35"
                             ><td>col1</td
                             ><td>col2</td

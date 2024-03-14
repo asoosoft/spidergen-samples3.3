@@ -4,7 +4,7 @@
     ><div class="ADataGrid-Style" data-base="ADataGrid" data-class="ADataGrid" style="width: 100%; height: calc((100% - 100px) - 0px); left: 0px; top: 100px;" data-sgap-height="1" data-stretch-height="true" id="TestView2--testGrid" data-flag="0100" data-selectable="true" data-fullrow-select="true" data-hide-footer="1"
         ><div class="AView-Style" data-base="AView" data-class="AView" data-sgap-height="1" data-sgap-width="1" data-stretch-height="true" data-stretch-width="true" style="width: calc((100% - 0px) - 15px); height: calc((100% - 0px) - 15px); left: 0px; top: 0px; overflow: hidden;"
             ><div data-base="AGrid" data-class="AGrid" data-flag="0001" data-selectable="true" data-clear-rowtmpl="true" class="AGrid-Style" style="width: 100%; height: 100%; left: 0px; top: 0px;" data-ver="3301" data-hide-footer="true"
-                ><div style="height: 100%; overflow-y: visible; overflow-x: hidden;"
+                ><div style="height: 100%; overflow: hidden;"
                     ><table class="grid-header-table" align="center" style="width: calc(100% - 0px); border-collapse: collapse; table-layout: fixed;"
                         ><colgroup
                             ><col style="width: 0px;"
