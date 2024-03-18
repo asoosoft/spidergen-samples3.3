@@ -31,8 +31,8 @@ TestView.prototype.onInitDone = function()
 			data.push([ 
                 //left pivotGrid data
 				{ type:'sequence' }, //value: 'desc' or 'asc', default value is asc
-                { type:'checkbox', }, //checked:true 초기값 선택
-                { type:'button', value:'button'+i, class:'btn-style' },
+                { type:'checkbox', text:'Check'+i }, //checked:true 초기값 선택
+                { type:'button', value:'button'+i, class:'btn-style', text:' btn' },
 
 				//right grid data
 				{text:i+1, style:'color:rgb(255,0,0); font-weight:bold;' }, 
@@ -92,8 +92,6 @@ TestView.prototype.onInitDone = function()
 		
 	//새로운 데이터로 셋팅하기
 	this.dataGrid1.setCellData(2, 1, { type:'checkbox', checked:true });
-		
-
 };
 
 //---------------------------------------------------------
@@ -103,12 +101,19 @@ TestView.prototype.onDataGridInputClick = function(comp, info, e)
 {
 	console.log('grid Input Click : ', info);
     console.log('Event Row Index : ', e.rowIndex);
+    console.log('Event Col Index : ', e.colIndex);
 
     if(info.type=='checkbox')
     {
 	    //comp is this.dataGrid1
 	    let inxArr = comp.getCheckedIndices(1);	//2번째 컬럼에서 체크된 모든 인덱스를 얻어온다.
         console.log(inxArr)
+
+        comp.hideColumn([3, 5, 7])
+    }
+    else
+    {
+        comp.showColumn([3, 5, 7])
     }
 
 };
@@ -117,6 +122,7 @@ TestView.prototype.onDataGridInputChange = function(comp, info, e)
 {
     console.log('grid Input Change : ', info);
     console.log('Event Row Index : ', e.rowIndex);
+    console.log('Event Col Index : ', e.colIndex);
 
     if(info.type=='select')
     {

@@ -1,6 +1,7 @@
 {
     "library": {
-        "ADataMask.js": true
+        "ADataMask.js": true,
+        "DnDManager.js": true
     },
     "component": {},
     "event": {},
